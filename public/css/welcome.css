@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+}
+
+.sidebar{
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(0, 170, 248);
+    padding: 1rem 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Main Section Styles */
+.container {
+    display: flex;
+    margin-top: 2rem;
+}
+* Sidebar Styles */
+aside {
+    width: 25%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav ul li {
+    margin-bottom: 1rem;
+}
+.sidebar-nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 170, 248);
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    width: 70%;
+    margin-left: 2rem;
+}
+
+section {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.posts {
+    margin-top: 30px;
+}
+
+.posts h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    line-height:1.5;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Services Section */
+.post{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+.post h3 {
+    margin: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(0, 170, 248);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20rem;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.welcome{
+    color: white;
+}
